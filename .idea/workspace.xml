@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc148d79-7088-4507-9e88-e7cad9ed5f61" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicSetupTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTestngTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +21,16 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2kkUDT8wyjwWWMVKwdEEBE9wCAF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -46,16 +44,26 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.SeleniumTestngTest.DragAndDropTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.HorizontalSliderTest (1).executor": "Debug",
+    "TestNG.SeleniumTestngTest.HorizontalSliderTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest (1).executor": "Debug",
+    "TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.addRemoveElementsTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.checkAllCheckBoxesTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.dropDownOptionTest.executor": "Run",
     "TestNG.SeleniumTestngTest.executor": "Run",
+    "TestNG.SeleniumTestngTest.formAuthenticationTest.executor": "Run",
     "TestNG.SeleniumTestngTest.myTest.executor": "Run",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "HomeworkSelenium",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/375/Documents/AUTO_QA/2-testng-selenium-css-xpath-locators-YuliiaDovgal",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.SeleniumTestngTest.myTest">
+  <component name="RunManager" selected="TestNG.SeleniumTestngTest">
     <configuration name="SeleniumTestngTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
@@ -67,11 +75,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTestngTest.myTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTestngTest.DragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SELENIUM_TESTNG_HOMEWORK" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
-      <option name="METHOD_NAME" value="myTest" />
+      <option name="METHOD_NAME" value="DragAndDropTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.HorizontalSliderTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="HorizontalSliderTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.abTestingPageHasSpecificTextTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="abTestingPageHasSpecificTextTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTestngTest.formAuthenticationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SELENIUM_TESTNG_HOMEWORK" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTestngTest" />
+      <option name="METHOD_NAME" value="formAuthenticationTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -81,8 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SeleniumTestngTest.myTest" />
         <item itemvalue="TestNG.SeleniumTestngTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.abTestingPageHasSpecificTextTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.HorizontalSliderTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.DragAndDropTest" />
+        <item itemvalue="TestNG.SeleniumTestngTest.formAuthenticationTest" />
       </list>
     </recent_temporary>
   </component>
