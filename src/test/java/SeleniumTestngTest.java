@@ -31,7 +31,7 @@ public class SeleniumTestngTest extends BasicSetupTest {
         for (WebElement deleteButton : browser.findElements(By.cssSelector(".added-manually"))) {
             deleteButton.click();
         }
-        Assert.assertTrue(browser.findElements(By.cssSelector(".added-manually")).isEmpty(), "All Delete buttons should be removed");
+        Assert.assertTrue(browser.findElements(By.cssSelector(".added-manually")).isEmpty(), "All delete buttons to be removed but at least one is still present");
     }
 
     @Test
@@ -98,27 +98,9 @@ public class SeleniumTestngTest extends BasicSetupTest {
         slider.sendKeys(org.openqa.selenium.Keys.ARROW_RIGHT);
         slider.sendKeys(org.openqa.selenium.Keys.ARROW_RIGHT);
 
-        Assert.assertNotEquals(value.getText(), "0", "Slider value should not be 0 after moving the slider");
+        String sliderValue = value.getText();
+        String expectedValue = "1";
+
+        Assert.assertEquals(sliderValue, expectedValue, "Slider value is incorrect after moving it twice to the right.");
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-    // Write the rest of TEST METHODS according to the task here, each method checking one scenario described in README.md file
-    // In the end you should have a set of test methods each of them describing some specific scenario
-
-
